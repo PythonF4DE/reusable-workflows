@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: ${{ inputs.push }}
-          tags: ${{ secrets.DOCKER_USERNAME }}:my-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/my-app:latest
